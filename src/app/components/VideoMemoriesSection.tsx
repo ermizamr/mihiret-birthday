@@ -1,7 +1,6 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
-import { Play } from "lucide-react";
 import handsImage from "../../imports/image.png";
 
 export default function VideoMemoriesSection() {
@@ -54,24 +53,16 @@ export default function VideoMemoriesSection() {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              <div className="relative bg-white rounded-3xl shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-shadow">
-                <div className="aspect-video bg-gradient-to-br from-pink-200 to-rose-200 flex items-center justify-center">
-                  {/* VIDEO PLACEHOLDER 1 - Replace src with your video URL */}
+              <div className="relative bg-white rounded-3xl shadow-xl overflow-hidden group hover:shadow-2xl transition-shadow">
+                <div className="aspect-video bg-gradient-to-br from-pink-200 to-rose-200">
                   <video
-                    className="w-full h-full object-cover hidden"
+                    className="w-full h-full object-cover"
                     controls
-                    poster="https://via.placeholder.com/800x450/ffc2d1/ffffff?text=Video+1"
+                    preload="metadata"
                   >
                     <source src="/videos/video1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
-
-                  {/* Placeholder when no video */}
-                  <div className="text-center">
-                    <Play className="mx-auto mb-4 text-pink-500" size={64} />
-                    <p className="text-pink-600 text-lg">Video 1 Coming Soon</p>
-                    <p className="text-pink-400 text-sm mt-2">Upload your video to /public/videos/video1.mp4</p>
-                  </div>
                 </div>
 
                 <div className="p-6">
@@ -86,24 +77,16 @@ export default function VideoMemoriesSection() {
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <div className="relative bg-white rounded-3xl shadow-xl overflow-hidden group cursor-pointer hover:shadow-2xl transition-shadow">
-                <div className="aspect-video bg-gradient-to-br from-rose-200 to-pink-200 flex items-center justify-center">
-                  {/* VIDEO PLACEHOLDER 2 - Replace src with your video URL */}
+              <div className="relative bg-white rounded-3xl shadow-xl overflow-hidden group hover:shadow-2xl transition-shadow">
+                <div className="aspect-video bg-gradient-to-br from-rose-200 to-pink-200">
                   <video
-                    className="w-full h-full object-cover hidden"
+                    className="w-full h-full object-cover"
                     controls
-                    poster="https://via.placeholder.com/800x450/ffb3c6/ffffff?text=Video+2"
+                    preload="metadata"
                   >
                     <source src="/videos/video2.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
-
-                  {/* Placeholder when no video */}
-                  <div className="text-center">
-                    <Play className="mx-auto mb-4 text-rose-500" size={64} />
-                    <p className="text-rose-600 text-lg">Video 2 Coming Soon</p>
-                    <p className="text-rose-400 text-sm mt-2">Upload your video to /public/videos/video2.mp4</p>
-                  </div>
                 </div>
 
                 <div className="p-6">
