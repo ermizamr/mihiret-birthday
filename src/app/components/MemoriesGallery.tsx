@@ -2,10 +2,10 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import img1 from "../../imports/IMG_20260427_211144_565.jpg";
-import img2 from "../../imports/IMG_20260427_211144_606.jpg";
-import img3 from "../../imports/IMG_20260427_211144_048.jpg";
-import img4 from "../../imports/IMG_20260427_211143_754.jpg";
+import img1 from "../../imports/6015035259658898426_119.jpg";
+import img2 from "../../imports/6015035259658898427_119.jpg";
+import img3 from "../../imports/6015035259658898425_119.jpg";
+import img4 from "../../imports/6015035259658898429_119.jpg";
 
 export default function MemoriesGallery() {
   const ref = useRef(null);
