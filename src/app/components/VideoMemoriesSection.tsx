@@ -16,7 +16,7 @@ export default function VideoMemoriesSection() {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-5xl text-center mb-16 bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent"
         >
-          Our Special Moments 🎬
+          Ny Special Moments 🎬
         </motion.h2>
 
         <div className="space-y-12">
@@ -40,7 +40,7 @@ export default function VideoMemoriesSection() {
                 className="mt-4 text-center"
               >
                 <p className="text-xl text-pink-700 italic">
-                  "Forever holding your hand, forever holding your heart"
+                  "I wanna hold your hand forever, hold your heart forever"
                 </p>
               </motion.div>
             </div>
@@ -66,8 +66,8 @@ export default function VideoMemoriesSection() {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-xl text-pink-700 mb-2">Our First Adventure</h3>
-                  <p className="text-pink-500">A special moment captured in time</p>
+                  <h3 className="text-xl text-pink-700 mb-2">My gng is you :)</h3>
+                  <p className="text-pink-500"> </p>
                 </div>
               </div>
             </motion.div>
@@ -90,8 +90,8 @@ export default function VideoMemoriesSection() {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-xl text-pink-700 mb-2">Our Beautiful Journey</h3>
-                  <p className="text-pink-500">Every moment with you is precious</p>
+                  <h3 className="text-xl text-pink-700 mb-2">The music is perfect for you!</h3>
+                  <p className="text-pink-500">Tho you are beautiful from both inside and outside</p>
                 </div>
               </div>
             </motion.div>
@@ -104,7 +104,7 @@ export default function VideoMemoriesSection() {
             className="text-center"
           >
             <p className="text-pink-600 text-lg italic">
-              "These moments remind me why every second with you is a treasure" 💕
+              "Every second with you is a treasure" 💕
             </p>
           </motion.div>
         </div>
