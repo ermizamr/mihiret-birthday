@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { Heart } from "lucide-react";
-import intimateImg from "../../imports/IMG_20260427_211144_507.jpg";
+import intimateImg from "../../imports/6015035259658898424_121.jpg";
 
 export default function IntimatePhoto() {
   const ref = useRef(null);
