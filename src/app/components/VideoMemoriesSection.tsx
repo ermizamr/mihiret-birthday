@@ -16,7 +16,7 @@ export default function VideoMemoriesSection() {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-5xl text-center mb-16 bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text text-transparent"
         >
-          Ny Special Moments 🎬
+          My Special Moments 🎬
         </motion.h2>
 
         <div className="space-y-12">
